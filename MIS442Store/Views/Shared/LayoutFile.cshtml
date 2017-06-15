@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>MIS 442 Final</title>
+    <link href="~/CSS/myStyle.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="PageWrapper">
+        <header id="HeaderBar"><h1>Computer Catalog</></h1></header>
+        <table class="TableMenuBar">
+            <tr>
+                <th><a href="~/Product/Index">Home</a></th>
+                <th><a href="~/Views/News/Index">About</a></th>
+                <th><a href="~/Views/News/Index">News</a></th>
+                <th><a href="~/">Contact</a></th>
+            </tr>
+        </table>
+    </div>
+    @Html.Partial("_LoginPartial")
+    @RenderSection("Scripts", false)
+    @RenderBody()
+</body>
+</html>
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<footer id="FooterBar"><strong>Travis Miller MIS 442 Final Project</strong></footer>

@@ -1,0 +1,63 @@
+﻿#HeaderBar {
+    background: lightblue;
+    padding: 15px 10px;
+    text-align: center;
+    font-size: 35px;
+}
+
+#FooterBar {
+    background: silver;
+    padding: 15px 10px;
+    text-align: center;
+}
+
+.RegularText {
+    font-size: 18px;
+}
+
+.SpanColor {
+    color: green;
+}
+
+span {
+    color: blue;
+}
+
+thead {
+    color: blue;
+}
+
+tbody {
+    color: white;
+}
+
+.tableSetting {
+    border: 1px solid black;
+    padding: 3px;
+    text-align: center;
+}
+
+#PageWrapper {
+    width: 960px;
+    margin: 0 auto;
+    background-color: white;
+    border: 8px black solid;
+}
+
+body {
+    background-color: lightseagreen;
+}
+
+main {
+    padding: 10px;
+}
+
+table.Menu{
+    display: inline;
+    width: 100%;
+    text-align: center;
+}
+.TableMenuBar, th{
+    padding: 5px;
+    text-align: right;
+}
